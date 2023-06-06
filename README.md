@@ -1,7 +1,5 @@
-### Project 4 - Machine Learning
+### Project 4 - Machine Learning: Ashley H, Fiona B, Katie B, Pratik S, Tifani B
 # To Shroom or Not to Shroom?🍄 
-
-## Ashley H, Fiona B, Katie B, Pratik S, Tifani B
 
 > One of the surprising rises out of the Covid-19 pandemic was the resurgence of the mushroom among Americans.
 As people looked for refuge from their homes in nature, foraging for mushrooms continued to rise. This rise in interest has coincided with the use of Psilocybin mushrooms for recreational use, medicinal use, combat climate change, and curing world hunger. 
