@@ -7,9 +7,14 @@ As people looked for refuge from their homes in nature, foraging for mushrooms c
 ## Contents
 - [Purpose](#purpose)
     - [Is This Mushroom Edible or Poisonous?](#is-this-mushroom-edible-or-poisonous)
+- [Datasource](#datasource)
 - [Overview](#overview)
     - [Machine Learning Technologies](#machine-learning-technologies)
     - [Multi-Class Classification and Mushroom Species Identification](#multi-class-classification-and-mushroom-species-identification)
+- [Description of Data Analysis](#description-of-data-analysis)
+-[Results](#results)
+    - [Findings](#findings)
+    - [Analysis](#analysis)   
 - [References](#references)
 
 <p align="center">
@@ -22,9 +27,12 @@ If you were to walk around in your backyard right now, there is a good chance th
 ### Is This Mushroom Edible or Poisonous?
 This compelling question is one that our model can answer based on certain mushroom characteristics.
 
+## Datasource
+- [Mushroom Dataset](https://archive.ics.uci.edu/ml/datasets/Secondary+Mushroom+Dataset)
+
 ## Overview
 
-### Machine Learning Technologies:
+### Machine Learning Technologies
 - Principal Component Analysis (PCA)
 - Balancing Data if needed: Imbalanced-Learn w/ Imblearn in Python Random Over/Under Sampling.
 - Binary Classification: edible or poisonous?
@@ -34,10 +42,23 @@ This compelling question is one that our model can answer based on certain mushr
 - Support Vector Machine
 - TensorFlow
 
-### Multi-Class Classification and Mushroom Species Identification:
+### Multi-Class Classification and Mushroom Species Identification
 - k-Nearest Neighbors.
 - Decision Trees.
 - Random Forest.
+
+## Description of Data Analysis
+- **Step 1:**
+- **Step 2:** 
+- **Step 3:** 
+- **Step 4:** 
+- **Step 5:** 
+
+## Results
+
+### Findings
+
+### Analysis
 
 ## References
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
