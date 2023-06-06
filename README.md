@@ -80,7 +80,7 @@ Data Analysis was done in a 3 step process:
 ## Results
 
 ### Findings
-   **- Logistic Regression**
+  - **Logistic Regression:**
     - Works better when you can build a linear regression and we cannot do that with our data because there is so much, thus we can't get an accurate measure of regression.
 
 ### Analysis
