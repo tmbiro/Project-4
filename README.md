@@ -6,8 +6,6 @@
 > One of the surprising rises out of the Covid-19 pandemic was the resurgence of the mushroom among Americans.
 As people looked for refuge from their homes in nature, foraging for mushrooms continued to rise. This rise in interest has coincided with the use of Psilocybin mushrooms for recreational use, medicinal use, combat climate change, and curing world hunger. 
 
-<img width="100%" alt="Screenshot 2023-06-05 at 8 14 38 PM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8">
-
 ## Contents
 - [Purpose](#purpose)
     - [Is This Mushroom Edible or Poisonous?](#is-this-mushroom-edible-or-poisonous)
@@ -15,6 +13,8 @@ As people looked for refuge from their homes in nature, foraging for mushrooms c
     - [Machine Learning Technologies](#machine-learning-technologies)
     - [Multi-Class Classification and Mushroom Species Identification](#multi-class-classification-and-mushroom-species-identification)
 - [References](#references)
+
+<img width="100%" alt="Screenshot 2023-06-05 at 8 14 38 PM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8">
 
 ## Purpose
 If you were to walk around in your backyard right now, there is a good chance that you would find some sort of mushroom. Before handling these types of fungi, it is important to decipher whether or not they are poisonous. Misidentifying poisonous mushrooms can have severe consequences, as ingestion of toxic varieties can lead to illness, organ failure, or even death. We've decided to train a machine learning model that can accurately identify and differentiate toxic mushrooms from edible ones, ensuring the safety of individuals who forage or consume wild mushrooms.
