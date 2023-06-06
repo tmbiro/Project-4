@@ -39,7 +39,7 @@ This compelling question is one that our model can answer based on certain mushr
 - Principal Component Analysis (PCA)
 - Balancing Data if needed: Imbalanced-Learn w/ Imblearn in Python Random Over/Under Sampling.
 - Binary Classification: edible or poisonous?
-- Logistic Regression
+- Logistic Regression - note (our data is too big/messy to get an accurate measure of regression)
 - k-Nearest Neighbors
 - Decision Trees
 - Support Vector Machine
