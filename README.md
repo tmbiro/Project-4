@@ -56,11 +56,11 @@ Data Analysis was done in a 3 step process:
     - We began by importing our csv source to a jupyter notebook
     - Before modeling, we made sure to clean, normalize and standardize our data
         - When cleaning, we found dropping null values to be the most beneficial tactic since:
-            - Whenever you have more % of null values better to drop the column or row
-            - Whenever you have null values with outliers it's better to impute by median
-            - Whenever you have null values with out outliers it's better to impute by mean
-            - Whenever you have null values ok categorical values sometimes better to impute by mode.
-            - On the occassional cases some times imputation of null values deals with using algorithmic imputation
+           - Whenever you have more % of null values better to drop the column or row
+           - Whenever you have null values with outliers it's better to impute by median
+           - Whenever you have null values with out outliers it's better to impute by mean
+           - Whenever you have null values ok categorical values sometimes better to impute by mode.
+           - On the occassional cases some times imputation of null values deals with using algorithmic imputation
 
 #### - Step 2: Data Exploration and Visualization
     - In this step, we decided to create a barchart that displays how mushroom color influences whether the mushroom is poisonous or not.
