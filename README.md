@@ -1,4 +1,7 @@
-# Project 4 - Machine Learning: To Shroom or Not to Shroom 
+# Project 4 - Machine Learning
+# To Shroom or Not to Shroom?🍄 
+
+<img width="100%" alt="Screenshot 2023-06-05 at 8 14 38 PM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8">
 
 ## Ashley H, Fiona B, Katie B, Pratik S, Tifani B
 
