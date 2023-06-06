@@ -52,7 +52,7 @@ This compelling question is one that our model can answer based on certain mushr
 
 ## Description of Data Analysis
 Data Analysis was done in a 3 step process:
-#### - Step 1: Data Cleaning and Preprocessing
+#### Step 1: Data Cleaning and Preprocessing
    - We began by importing our csv source to a jupyter notebook
    - Before modeling, we made sure to clean, normalize and standardize our data
        - When cleaning, we found dropping null values to be the most beneficial tactic since:
@@ -62,12 +62,12 @@ Data Analysis was done in a 3 step process:
        - Whenever you have null values ok categorical values sometimes better to impute by mode.
        - On the occassional cases some times imputation of null values deals with using algorithmic imputation
 
-#### - Step 2: Data Exploration and Visualization
+#### Step 2: Data Exploration and Visualization
    - In this step, we decided to create a barchart that displays how mushroom color influences whether the mushroom is poisonous or not.
    - We've also included a barchart that demonstrates how bruising and bleeding influences whether the mushroom is poisonous or not.
    - Additionally, our third barhcart checks how cap diameter influences whether the mushroom is poisonous or not.
     
-#### - Step 3: Predictive Analyses
+#### Step 3: Predictive Analyses
 
 ## Results
 
