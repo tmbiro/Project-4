@@ -2,7 +2,7 @@
 # To Shroom or Not to Shroom?🍄 
 
 > **One surprising development of the Covid-19 pandemic was the resurgence of interest in mushrooms among Americans.
-As people looked for refuge from their homes in nature, foraging for mushrooms continued to rise. This rise in interest has coincided with the use of Psilocybin mushrooms for recreational use, medicinal use, combat climate change, and curing world hunger.** 
+As people looked for refuge from their homes in nature, many took on the practice of foraging mushrooms. This rise in interest has coincided with the use of Psilocybin mushrooms for medical and recreational use, in addition to discussions about how to combat climate change and cure world hunger.** 
 
 ## Contents
 - [Purpose](#purpose)
