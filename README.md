@@ -48,12 +48,10 @@ This compelling question is one that our model can answer based on certain mushr
 - Random Forest.
 
 ## Description of Data Analysis
-Data Analysis was done in a 5 step process:
-- **Step 1:**
-- **Step 2:** 
-- **Step 3:** 
-- **Step 4:** 
-- **Step 5:** 
+Data Analysis was done in a 3 step process:
+- **Step 1:** Data Cleaning and Preprocessing
+- **Step 2:** Data Exploration and Visualization
+- **Step 3:** Predictive Analyses 
 
 ## Results
 
