@@ -1,4 +1,4 @@
-# Project 4 - Machine Learning
+## Project 4 - Machine Learning
 # To Shroom or Not to Shroom?🍄 
 
 ## Ashley H, Fiona B, Katie B, Pratik S, Tifani B
