@@ -1,12 +1,12 @@
 # Project 4 - Machine Learning
 # To Shroom or Not to Shroom?🍄 
 
-<img width="100%" alt="Screenshot 2023-06-05 at 8 14 38 PM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8">
-
 ## Ashley H, Fiona B, Katie B, Pratik S, Tifani B
 
 > One of the surprising rises out of the Covid-19 pandemic was the resurgence of the mushroom among Americans.
 As people looked for refuge from their homes in nature, foraging for mushrooms continued to rise. This rise in interest has coincided with the use of Psilocybin mushrooms for recreational use, medicinal use, combat climate change, and curing world hunger. 
+
+<img width="100%" alt="Screenshot 2023-06-05 at 8 14 38 PM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8">
 
 ## Contents
 - [Purpose](#purpose)
