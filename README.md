@@ -31,7 +31,9 @@ If you were to walk around in your backyard right now, there is a good chance th
 This compelling question is one that our model can answer based on certain mushroom characteristics.
 
 ## Datasource
-- [Mushroom Dataset](https://archive.ics.uci.edu/ml/datasets/Secondary+Mushroom+Dataset)
+- [Mushroom Dataset Homepage](https://archive.ics.uci.edu/ml/datasets/Secondary+Mushroom+Dataset)
+- [Link to Dataets](https://mushroom.mathematik.uni-marburg.de/files/)
+    - We are specifically using the secondary_data_shuffled.csv which can be found [here](https://mushroom.mathematik.uni-marburg.de/files/SecondaryData/secondary_data_shuffled.csv)
 
 ## Overview
 
