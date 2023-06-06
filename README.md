@@ -32,7 +32,7 @@ This compelling question is one that our model can answer based on certain mushr
 
 ## Datasource
 - [Mushroom Dataset Homepage](https://archive.ics.uci.edu/ml/datasets/Secondary+Mushroom+Dataset)
-- [Link to Dataets](https://mushroom.mathematik.uni-marburg.de/files/)
+- [Link to Dataset Files](https://mushroom.mathematik.uni-marburg.de/files/)
     - We are specifically using the secondary_data_shuffled.csv which can be found [here](https://mushroom.mathematik.uni-marburg.de/files/SecondaryData/secondary_data_shuffled.csv)
 
 ## Overview
@@ -109,4 +109,5 @@ Data Analysis was done in a 3 step process:
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
 - [Climate Change](https://www.nytimes.com/interactive/2022/07/27/climate/climate-change-fungi.html)
 - [World Hunger](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10213758/) 
-- [Legalization](https://www.vox.com/future-perfect/21509465/psychedelic-magic-mushrooms-psilocybin-medical-legalization-decriminalization-oregon-washington-dc) 
+- [Legalization](https://www.vox.com/future-perfect/21509465/psychedelic-magic-mushrooms-psilocybin-medical-legalization-decriminalization-oregon-washington-dc)
+- [Scientific Report Inspiration](https://www.nature.com/articles/s41598-021-87602-3)  
