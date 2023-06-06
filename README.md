@@ -39,7 +39,7 @@ This compelling question is one that our model can answer based on certain mushr
 - Principal Component Analysis (PCA)
 - Balancing Data if needed: Imbalanced-Learn w/ Imblearn in Python Random Over/Under Sampling.
 - Binary Classification: edible or poisonous?
-- Logistic Regression - note (our data is too big/messy to get an accurate measure of regression)
+- Logistic Regression 
 - k-Nearest Neighbors
 - Decision Trees
 - Support Vector Machine
@@ -71,7 +71,7 @@ Data Analysis was done in a 3 step process:
     
    #### Data Transformation and Setup
    
-   #### Principle Components Analysis 
+   #### Principle Components Analysis (PCA)
    
    #### Random Forest
    
@@ -80,6 +80,8 @@ Data Analysis was done in a 3 step process:
 ## Results
 
 ### Findings
+   **- Logistic Regression**
+    - Works better when you can build a linear regression and we cannot do that with our data because there is so much, thus we can't get an accurate measure of regression.
 
 ### Analysis
 
