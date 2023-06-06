@@ -62,11 +62,29 @@ Data Analysis was done in a 3 step process:
         - Whenever you have null values ok categorical values sometimes better to impute by mode.
         - On the occassional cases some times imputation of null values deals with using algorithmic imputation
 
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ceac38cd-a851-460f-b6cb-41ea206904ff" />
+</p>
+
 ### Step 2: Data Exploration and Visualization
    - In this step, we decided to create a barchart that displays how mushroom color influences whether the mushroom is poisonous or not.
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f2dc8073-1dfc-4b67-a355-e7fbd0736362" />
+</p>
+
    - We've also included a barchart that demonstrates how bruising and bleeding influences whether the mushroom is poisonous or not.
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/2a20c531-4f2e-4caa-839c-482ae74880d4" />
+</p>
+
    - Additionally, our third barhcart checks how cap diameter influences whether the mushroom is poisonous or not.
-    
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4fb44a12-6d46-494a-89f7-81f50a216d17" />
+</p>
+
 ### Step 3: Predictive Analyses
     
    #### Data Transformation and Setup
