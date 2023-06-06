@@ -12,7 +12,7 @@ As people looked for refuge from their homes in nature, many took on the practic
     - [Machine Learning Technologies](#machine-learning-technologies)
     - [Multi-Class Classification and Mushroom Species Identification](#multi-class-classification-and-mushroom-species-identification)
 - [Description of Data Analysis](#description-of-data-analysis)
-    - [Step 1](#step-1)
+    - [Step 1](#step-1-data-cleaning-and-preprocessing)
     - [Step 2](#step-2)
     - [Step 3](#step-3)
 - [Results](#results)
