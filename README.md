@@ -12,7 +12,7 @@ As people looked for refuge from their homes in nature, foraging for mushrooms c
     - [Machine Learning Technologies](#machine-learning-technologies)
     - [Multi-Class Classification and Mushroom Species Identification](#multi-class-classification-and-mushroom-species-identification)
 - [Description of Data Analysis](#description-of-data-analysis)
--[Results](#results)
+- [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
 - [References](#references)
