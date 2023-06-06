@@ -10,7 +10,7 @@ As people looked for refuge from their homes in nature, foraging for mushrooms c
     - [Is This Mushroom Edible or Poisonous?](#is-this-mushroom-edible-or-poisonous)
 - [Overview](#overview)
     - [Machine Learning Technologies](#machine-learning-technologies)
-    - [Multi-Class Classification & Mushroom Species Identification](#multi-class-classification-mushroom-species-identification)
+    - [Multi-Class Classification and Mushroom Species Identification](#multi-class-classification-and-mushroom-species-identification)
 - [References](#references)
 
 ## Purpose
@@ -31,7 +31,7 @@ This compelling question is one that our model can answer based on certain mushr
 - Support Vector Machine
 - TensorFlow
 
-### Multi-Class Classification & Mushroom Species Identification:
+### Multi-Class Classification and Mushroom Species Identification:
 - k-Nearest Neighbors.
 - Decision Trees.
 - Random Forest.
