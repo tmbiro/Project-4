@@ -113,7 +113,7 @@ Data Analysis was done in a 3 step process:
    #### Principle Components Analysis (PCA)
    
    #### Random Forest
- -We checked for model accuracy.
+  - We checked for model accuracy.
    
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/11b9b885-0abf-412b-9fb1-fdb1883548a8" />
