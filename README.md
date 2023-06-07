@@ -33,7 +33,7 @@ This compelling question is one that our model can answer based on certain mushr
 ## Datasource
 - [Mushroom Dataset Homepage](https://archive.ics.uci.edu/ml/datasets/Secondary+Mushroom+Dataset)
 - [Link to Dataset Files](https://mushroom.mathematik.uni-marburg.de/files/)
-    - We are specifically using the secondary_data_shuffled.csv which can be found [here](https://mushroom.mathematik.uni-marburg.de/files/SecondaryData/secondary_data_shuffled.csv)
+    - We are specifically using the `secondary_data_shuffled.csv` which can be found [here](https://mushroom.mathematik.uni-marburg.de/files/SecondaryData/secondary_data_shuffled.csv)
 
 ## Overview
 
