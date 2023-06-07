@@ -18,6 +18,7 @@ As people looked for refuge from their homes in nature, many took on the practic
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
+- [Next Steps](#next-steps)
 - [References](#references)
 
 <p align="center">
@@ -104,6 +105,8 @@ Data Analysis was done in a 3 step process:
     - Works better when you can build a linear regression and we cannot do that with our data because there is so much, thus we can't get an accurate measure of regression.
 
 ### Analysis
+
+## Next Steps
 
 ## References
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
