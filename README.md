@@ -113,19 +113,19 @@ Data Analysis was done in a 3 step process:
    #### Principle Components Analysis (PCA)
    
    #### Random Forest
-   -We checked for model accuracy.
+  -We checked for model accuracy.
    
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/11b9b885-0abf-412b-9fb1-fdb1883548a8" />
 </p>
 
-    - We calculated the confusion matrix.
+   - We calculated the confusion matrix.
  
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8899e020-dd29-459b-8b53-7440d21b117b" />
 </p>
 
-    - We visualized the features by importance.
+   - We visualized the features by importance.
  
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f7e61b24-e97c-4e78-8c62-d10d76d6d28c" />
