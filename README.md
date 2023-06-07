@@ -92,7 +92,7 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4fb44a12-6d46-494a-89f7-81f50a216d17" />
 </p>
     
-    - Additionally, we visualized the effects of stem width, stem height, and stem color on whether a mushrooom is posionous or not. 
+   - Additionally, we visualized the effects of stem width, stem height, and stem color on whether a mushrooom is posionous or not. 
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8425a734-bc29-474e-9aa6-b7cac5c5ea29" />
@@ -119,13 +119,13 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/11b9b885-0abf-412b-9fb1-fdb1883548a8" />
 </p>
 
-   - We calculated the confusion matrix.
+  - We calculated the confusion matrix.
  
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8899e020-dd29-459b-8b53-7440d21b117b" />
 </p>
 
-   - We visualized the features by importance.
+  - We visualized the features by importance.
  
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f7e61b24-e97c-4e78-8c62-d10d76d6d28c" />
