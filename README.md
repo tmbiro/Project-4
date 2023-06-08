@@ -111,6 +111,9 @@ Data Analysis was done in a 3 step process:
    #### Data Transformation and Setup
    
    #### Principle Components Analysis (PCA)
+    -We can see that PCA1 returned a high accuracy of almost 90%, while PCA2 gave us 8& accuracy. Our next steps were to analyze specific features.
+        - PCA1 = almost 90% accuracy
+        - PCA2 = 8%
    
    #### Random Forest - tells us what the most important features are
   - We checked for model accuracy.
