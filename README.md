@@ -112,7 +112,7 @@ Data Analysis was done in a 3 step process:
    
    #### Principle Components Analysis (PCA)
    
-   #### Random Forest
+   #### Random Forest - tells us what the most important features are
   - We checked for model accuracy.
    
  <p align="center">
