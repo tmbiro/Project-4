@@ -145,8 +145,8 @@ Data Analysis was done in a 3 step process:
 ### Analysis
 
 ## Next Steps
-    - Image idea
-    -
+  - Image idea
+  -
 
 ## References
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
