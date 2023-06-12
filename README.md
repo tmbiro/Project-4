@@ -209,6 +209,9 @@ Data Analysis was done in a 3 step process:
   <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/942eea06-691b-4df3-bca2-a635013ee10f" />
 </p>
 
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/942eea06-691b-4df3-bca2-a635013ee10f" alt="alt text" width="whatever" height="whatever">
+
    **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
 
 <p align="center">
