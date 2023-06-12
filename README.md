@@ -73,11 +73,12 @@ Data Analysis was done in a 3 step process:
 </p>
 
 ### Step 2: Data Exploration and Visualization
-   - In this step, we decided to create a barchart that displays how mushroom cap and gill colors influences whether the mushroom is poisonous or not.
+   - In this step, we decided to create a barchart that displays how mushroom cap characteristics influence mushroom toxicity
 
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f2dc8073-1dfc-4b67-a355-e7fbd0736362" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
+***Result*** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/7288f3eb-c7b1-47f3-933f-35abe05a235f" />
