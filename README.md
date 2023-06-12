@@ -383,7 +383,7 @@ How does habitat and season influence mushroom toxicity?
  
    - When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
 
-   - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
+   - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy a loss of 5.03. 
 
 
 ## Conclusion and Next Steps
