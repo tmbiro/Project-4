@@ -73,12 +73,14 @@ Data Analysis was done in a 3 step process:
 </p>
 
 ### Step 2: Data Exploration and Visualization
-   - In this step, we decided to create a barchart that displays how mushroom cap characteristics influence mushroom toxicity
+- **Question 1: How do mushroom cap characteristics influence mushroom toxicity?** 
 
+- Image #1: 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
-    * **Result** * Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
+- **Result** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
+
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/7288f3eb-c7b1-47f3-933f-35abe05a235f" />
