@@ -76,7 +76,7 @@ Data Analysis was done in a 3 step process:
 
 **Question 1:** How do mushroom cap characteristics influence mushroom toxicity?
 
-*- **Image 1a** 
+*- **Image 1a***
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
@@ -90,7 +90,7 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** It appears that the bigger a mushroom cap is, the less likely it is to be poisonous.
   
-**Question 2: How do stem characteristics influence mushroom toxicity?**
+**Question 2:** How do stem characteristics influence mushroom toxicity?
 
 *- **Image 2a** 
 <p align="center">
@@ -113,7 +113,7 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** Mushrooms with wider stems appear to be less likely to be poisonous.
 
-**Question 3: How do gill characteristics influence mushroom toxicity?**
+**Question 3:** How do gill characteristics influence mushroom toxicity?
 
 *- **Image 3a**
 <p align="center">
@@ -122,7 +122,7 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** Mushrooms with white and buff gills appear to be less poisonous. Brown-, yellow-, red-, and pink-gilled mushrooms appear to be especially poisonous.
 
-**Question 4: How does bleeding and bruising influence mushroom toxicity?**
+**Question 4:** How does bleeding and bruising influence mushroom toxicity?
 
 *- **Image 4a**
 <p align="center">
@@ -131,7 +131,7 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** It appears that you would have better luck not being poisoned by a mushroom that bleeds and/or bruises compared to one that doesn't, though you are likely to get poisoned regardless.
 
-**Question 5: How does habitat and season influence mushroom toxicity?**
+**Question 5:** How does habitat and season influence mushroom toxicity?
 
 *- **Image 5a**
 <p align="center">
