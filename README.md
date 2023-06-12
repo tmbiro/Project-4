@@ -391,7 +391,7 @@ We were able to build several models that accurately predict the edibility or to
 
    **1.** A *Convolutional Neural Network Model* with Images of mushrooms to see if we can use images to identify if a mushroom is edible or poisonous.
     
-   **2.** Using *Saliency Maps* to see if we can highlight which feature of the mushroom is relevant for classification of it being edible or poisonous.
+   **2.** Using *Saliency Maps* to see if what highlighted features of the mushroom are relevant for classification of it being edible or poisonous and explore similarities/differences with features in current data set.
 
 Our group also discussed how changes in laws surrounding the cultivation and use of mushrooms containing psylocibin for therapeutic purposes will change the data landscape for mushrooms. Currently psylocibin is a controlled substance and data is not available or what is available is federally controlled. As the use of psylocibin mushrooms increases in western medicine and data is released. Adding the features of psilocybin mushrooms as a hallucinogenic classification category is a possibility.
 
