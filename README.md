@@ -14,6 +14,11 @@ As people looked for refuge from their homes in nature, many took on the practic
 - [Description of Data Analysis](#description-of-data-analysis)
     - [Step 1: Data Cleaning and Preprocessing](#step-1-data-cleaning-and-preprocessing)
     - [Step 2: Data Exploration and Visualization](#step-2-data-exploration-and-visualization)
+        - [Relations Between Cap Characteristics & Mushroom Toxicity](#question-1)
+        - [Relations Between Stem Characteristics & Mushroom Toxicity](#question-2)
+        - [Relations Between Gill Characteristics & Mushroom Toxicity](#question-3)
+        - [Relations Between Bleeding/Bruising & Mushroom Toxicity](#question-4)
+        - [Relations Between Habitat/Season & Mushroom Toxicity](#question-5)
     - [Step 3: Predictive Analyses](#step-3-predictive-analyses)
         - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
             - [Findings](#pca-findings)
@@ -78,7 +83,8 @@ Data Analysis was done in a 3 step process:
 
    ### Step 2: Data Exploration and Visualization
 
-**Question 1:** How do mushroom cap characteristics influence mushroom toxicity?
+#### Question 1: 
+How do mushroom cap characteristics influence mushroom toxicity?
 
 > **Image 1a**
 <p align="center">
@@ -94,7 +100,8 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** It appears that the bigger a mushroom cap is, the less likely it is to be poisonous.
   
-**Question 2:** How do stem characteristics influence mushroom toxicity?
+#### Question 2: 
+How do stem characteristics influence mushroom toxicity?
 
 > **Image 2a** 
 <p align="center">
@@ -117,7 +124,8 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** Mushrooms with wider stems appear to be less likely to be poisonous.
 
-**Question 3:** How do gill characteristics influence mushroom toxicity?
+#### Question 3:
+How do gill characteristics influence mushroom toxicity?
 
 > **Image 3a**
 <p align="center">
@@ -126,7 +134,8 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** Mushrooms with white and buff gills appear to be less poisonous. Brown-, yellow-, red-, and pink-gilled mushrooms appear to be especially poisonous.
 
-**Question 4:** How does bleeding and bruising influence mushroom toxicity?
+#### Question 4:
+How does bleeding and bruising influence mushroom toxicity?
 
 > **Image 4a**
 <p align="center">
@@ -135,7 +144,8 @@ Data Analysis was done in a 3 step process:
 
    - **Results:** It appears that you would have better luck not being poisoned by a mushroom that bleeds and/or bruises compared to one that doesn't, though you are likely to get poisoned regardless.
 
-**Question 5:** How does habitat and season influence mushroom toxicity?
+#### Question 5:
+How does habitat and season influence mushroom toxicity?
 
 > **Image 5a**
 <p align="center">
@@ -340,9 +350,13 @@ Data Analysis was done in a 3 step process:
    #### Decision Tree Findings
    
    - This produced an accuracy rating of 98% 
+   
    - Model performed well which is likely because:
+    
     - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
+    
     - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
+    
     - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
 
    #### Deep Neural Net
