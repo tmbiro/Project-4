@@ -19,6 +19,7 @@ As people looked for refuge from their homes in nature, many took on the practic
         - [Random Forest](#random-forest)
         - [Logistic Regression](#logistic-regression) 
         - [Decision Tree Model](#decision-tree-model)
+        - [Deep Neural Net](#deep-neural-net) 
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
@@ -150,43 +151,145 @@ Data Analysis was done in a 3 step process:
 ### Step 3: Predictive Analyses
     
    #### Data Transformation and Setup
-   
+
+**1.** First, we code the discrete variables to numerics   
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/eeca4337-e844-42aa-90bb-7b963a98ed2c" />
+</p>
+
+
+**2.** Then, we separate out our response variable (poisonous or not) from the predictor variables (everything else).
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/1dbaf2ed-3d71-47a9-a779-bfb214c88c66" />
+</p>
+
+**3.** If we don't apply scaling, the models will be more influenced by features such as cap shape and color and stem and gill color compared to features like bruises and whether the mushrooms has rings. This is because the former features have a greater impact due to their wider range of choices.
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/5c73e4fe-fa6e-4100-94f2-84aa0bfcf459" />
+</p>
+
+**4.** We can see from the correlation matrix that the features are mostly uncorrelated.
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/0b61a794-3066-42b3-8e46-5d7fd91bbe47" />
+</p>
+
    #### Principle Components Analysis (PCA)
    
    **1. Splitting the Data:** We start by splitting the dataset into training and testing sets using the train_test_split function. This allows us to have separate data to train our model and evaluate its performance.
    
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/e51900b7-b1cc-4a40-a71a-2dcf6955ce36" />
+</p>
+
    **2. Standardizing the Data:** To ensure that all features are on the same scale, we create an instance of StandardScaler and fit it to the training data. Then, we use the fitted scaler to transform both the training and testing data. Standardization is important for many machine learning algorithms as it helps prevent certain features from dominating others due to differences in their scales.
    
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/87acc4ff-4b3d-4f3e-b6e3-6935f1369be2" />
+</p>
+   
    **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
-   
-   **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
-   
-   **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
-   
-   #### Random Forest 
-  - We checked for model accuracy.
-   
- <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/11b9b885-0abf-412b-9fb1-fdb1883548a8" />
+
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" />
 </p>
 
-  - We calculated the confusion matrix.
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" />
+</p>
+
+   **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
+
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/01206ea0-6710-440f-b76a-b09595a7be04" />
+</p>
+
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/942eea06-691b-4df3-bca2-a635013ee10f" />
+</p>
+
+   **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
+
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" />
+</p>
+
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" />
+</p>
+        - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
+
+   #### Random Forest 
+   **1.** We checked for model accuracy.
+   
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4cb92918-771c-4d04-8b43-0d0307074ef4" />
+</p>
+
+   **2.** We calculated the confusion matrix.
  
  <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8899e020-dd29-459b-8b53-7440d21b117b" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/de737072-0b70-478a-8854-8fea29796241" />
 </p>
-
-  - We visualized the features by importance.
+        - True Positive (TP): 8446 True Negative (TN): 6760 False Positive (FP): 35 False Negative (FN): 27
+        
+   **3.** We visualized the features by importance.
+   
  <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f7e61b24-e97c-4e78-8c62-d10d76d6d28c" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8fd308d7-eb50-44cf-a609-c10d7063c5ce" />
 </p>
    
    #### Logistic Regression
    The goal of the logistic regression as a classification model was to see if it can predict the binary outcome: 
-    - **Is this mushroom edible or poisonous?** 
+    
+   - **Is this mushroom edible or poisonous?** 
    
+   **1.** We fit a logistic regression model by using the training data (X_train and y_train).
+   
+ <p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/39e8ae64-44d0-4697-9310-c722ee15d6e1" />
+</p>
+
+   **2.** We printed the original accuracy score of the data and generated a confusion matrix for the model 
+   
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/9370a720-81ec-4bd9-ba0a-3b3af88a84f2" />
+</p>   
+
+**Results** True Positive (TP): 6378 True Negative (TN): 2707 False Positive (FP): 4088 False Negative (FN): 2095
+   
+   **3.** We printed the classification report for the model
+        
+ <p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/1e04dfcf-c2ab-4f3f-be8b-b04833de8697" />
+</p>   
+
+**Results:** Accuracy: 60% Class 0: Precision 56%, Recall 40%, F1-Score 47% Class 1: Precision 61%, Recall 75%, F1-Score 67% Weighted Average: Precision 59%, Recall 60%, F1-Score 58%
+
+   **4.** We predicted a logistic regression model with over resampled training data
+
+ <p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/e151d3d8-bbc7-4c03-957d-768305b76e46" />
+</p>   
+
+**Results:** True Positive (TP): 5011 True Negative (TN): 4038 False Positive (FP): 2757 False Negative (FN): 3462
+    - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
+
+   **4.** We predicted a logistic regression model with under resampled training data
+
+ <p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a6196e40-135a-4eb8-b8b9-f4d280fceda0" />
+</p>   
+
+**Results:** True Positive (TP): 4952 True Negative (TN): 4078 False Positive (FP): 2717 False Negative (FN): 3521
+    - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
+
+
    **Findings**
-   - This produced an accuracy rating of 60% 
+   
    - Over Sampled and Under Sampled LR Imbalanced Data Set 
     - Literature says it’s best to try both. 
     - **Over=** duplicates examples in the minority class (edible)
@@ -198,14 +301,36 @@ Data Analysis was done in a 3 step process:
 
    #### Decision Tree Model
    The goal of the Decision Tree Model as a classification model was to see if it can predict the binary outcome:
-    - **Is this mushroom edible or poisonous?** 
+    
+   - **Is this mushroom edible or poisonous?** 
+
+   **1.** We defined features and set target vectors
+   
+ <p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/80bdab34-cc45-4a6c-b41d-f1340125f151" />
+</p>     
+
+   **2.**  We created a `StandardScaler` instance and scaled the training data
+   
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/f5cbf964-5a5d-455d-91ed-d9d2b34ad1c8" />
+</p>  
+
+   **3.** We calculated the confusion matrix and accuracy score
+
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/3279a509-d055-419e-9ac3-f52cf8459c92" />
+</p>  
 
    **Findings**
+   
    - This produced an accuracy rating of 98% 
    - Model performed well which is likely because:
     - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
     - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
     - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
+
+   #### Deep Neural Net
 
 ## Results
 
