@@ -17,7 +17,7 @@ As people looked for refuge from their homes in nature, many took on the practic
     - [Step 3: Predictive Analyses](#step-3-predictive-analyses)
         - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
         - [Random Forest](#random-forest)
-        - [Logistic Regression](logistic-regression) 
+        - [Logistic Regression](#logistic-regression) 
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
