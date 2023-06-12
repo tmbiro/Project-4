@@ -31,7 +31,7 @@ As people looked for refuge from their homes in nature, many took on the practic
         - [Deep Neural Net](#deep-neural-net) 
             - [Findings](#deep-neural-net-findings)
 - [Conclusion and Next Steps](#conclusion-and-next-steps)
-- [References](#references)
+- [References & Recommended Readings](#references-and-recommended-readings)
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8" />
@@ -396,7 +396,7 @@ We were able to build several models that accurately predict the edibility or to
 
 Our group also discussed how changes in laws surrounding the cultivation and use of mushrooms containing psylocibin for therapeutic purposes will change the data landscape for mushrooms. Currently psylocibin is a controlled substance and data is not available or what is available is federally controlled. As the use of psylocibin mushrooms increases in western medicine and data is released. Adding the features of psilocybin mushrooms as a hallucinogenic classification category is a possibility.
 
-## References
+## References & Recommended Readings
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
 - [Climate Change](https://www.nytimes.com/interactive/2022/07/27/climate/climate-change-fungi.html)
 - [World Hunger](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10213758/) 
