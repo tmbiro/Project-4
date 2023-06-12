@@ -69,7 +69,7 @@ Data Analysis was done in a 3 step process:
         - On the occassional cases some times imputation of null values deals with using algorithmic imputation
 
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/7aca76a7-5b9e-4dd1-af89-a25c1c268c3b"> />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/13a3653c-7c8d-4164-8c3e-bacee90e3399"> />
 </p>
 
 ### Step 2: Data Exploration and Visualization
