@@ -75,42 +75,67 @@ Data Analysis was done in a 3 step process:
 ### Step 2: Data Exploration and Visualization
 - **Question 1: How do mushroom cap characteristics influence mushroom toxicity?** 
 
-- Image #1: 
+**Image 1a** 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
-- **Result** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
+**Results:** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
 
-
+**Image 1b**
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/7288f3eb-c7b1-47f3-933f-35abe05a235f" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/85eb14a8-42f4-4d64-9452-6c8b95efa0d9" />
 </p>
+**Results:** It appears that the bigger a mushroom cap is, the less likely it is to be poisonous.
+  
+- **Question 2: How do stem characteristics influence mushroom toxicity?**
 
-   - We've also included a barchart that demonstrates how bruising and bleeding influences whether the mushroom is poisonous or not.
-
+**Image 2a** 
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/2a20c531-4f2e-4caa-839c-482ae74880d4" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f5a54345-4058-464a-ae2b-d6cd5da6ae10" />
 </p>
+**Results:** Mushrooms with buff stems appear to almost always be edible. Mushrooms with white stems are also less likely to be poisonous. Stear clear of all other stem colors, however, as they are likely to be poisonous.
 
-   - Our third barhcart checks how cap diameter influences whether the mushroom is poisonous or not.
-
+**Image 2b**
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4fb44a12-6d46-494a-89f7-81f50a216d17" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/0cae269a-de79-4573-910d-8c7f9e670236" />
 </p>
-    
-   - Additionally, we visualized the effects of stem width, stem height, and stem color on whether a mushrooom is posionous or not. 
+**Results:** It appears that taller stemmed mushrooms are less likely to be poisonous.
 
+**Image 2c**
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8425a734-bc29-474e-9aa6-b7cac5c5ea29" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4517e7ad-6fc0-4325-aa9e-9032a0d45ba4" />
 </p>
+**Results:** Mushrooms with wider stems appear to be less likely to be poisonous.
 
-<p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/2190c771-8577-42a3-8f2e-31af588eb61f" />
-</p>
+- **Question 3: How do gill characteristics influence mushroom toxicity?**
 
+**Image 3a**
 <p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/1f9a855d-6272-4d28-ac40-0e0dcd764e87" />
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/998f8d15-52af-491b-afef-78dc356e57cb" />
 </p>
+**Results:** Mushrooms with white and buff gills appear to be less poisonous. Brown-, yellow-, red-, and pink-gilled mushrooms appear to be especially poisonous.
+
+- **Question 4: How does bleeding and bruising influence mushroom toxicity?**
+
+**Image 4a**
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/6cafbc03-b5a6-493a-ad6f-0e5c8a76e682" />
+</p>
+**Results:** It appears that you would have better luck not being poisoned by a mushroom that bleeds and/or bruises compared to one that doesn't, though you are likely to get poisoned regardless.
+
+- **Question 5: How does habitat and season influence mushroom toxicity?**
+
+**Image 5a**
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/18e956d4-9e24-437f-9bb9-331f18e62fac" />
+</p>
+**Results:** Urban mushrooms appear to be less poisonous, although their representation in the dataset is minimal. Leaf mushrooms also appear to be less poisonous. Mushrooms found in grasses or woods, however, appear more likely to be poisonous.
+
+**Image 5b**
+<p align="center">
+  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/534b0104-8376-4fe6-82c2-8cade7cc4e6d" />
+</p>
+**Result:** Most poisonous mushrooms can be found in the summer or autumn. You are less likely to find a poisonous mushroom in the Spring and Winter.
 
 ### Step 3: Predictive Analyses
     
@@ -142,7 +167,6 @@ Data Analysis was done in a 3 step process:
 </p>
 
   - We visualized the features by importance.
- 
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f7e61b24-e97c-4e78-8c62-d10d76d6d28c" />
 </p>
