@@ -15,7 +15,9 @@ As people looked for refuge from their homes in nature, many took on the practic
     - [Step 1: Data Cleaning and Preprocessing](#step-1-data-cleaning-and-preprocessing)
     - [Step 2: Data Exploration and Visualization](#step-2-data-exploration-and-visualization)
     - [Step 3: Predictive Analyses](#step-3-predictive-analyses)
-        - [Principle Components Analysis (PCA)](#principle-components-analysis-pca) 
+        - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
+        - [Random Forest](#random-forest)
+        - [Logistic Regression](logistic-regression) 
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
@@ -122,7 +124,7 @@ Data Analysis was done in a 3 step process:
    
    **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
    
-   #### Random Forest - tells us what the most important features are
+   #### Random Forest 
   - We checked for model accuracy.
    
  <p align="center">
