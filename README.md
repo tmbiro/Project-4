@@ -207,9 +207,9 @@ Data Analysis was done in a 3 step process:
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" width="50%">
 
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="50%">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="25%">
  
-        - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
+       - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
    #### Random Forest 
    **1.** We checked for model accuracy.
