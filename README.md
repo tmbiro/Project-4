@@ -70,11 +70,11 @@ Data Analysis was done in a 3 step process:
    - We began by importing our csv source to a jupyter notebook
    - Before modeling, we made sure to clean, normalize and standardize our data
       - When cleaning, we found dropping null values to be the most beneficial tactic since:
-        - Whenever you have more % of null values better to drop the column or row
-        - Whenever you have null values with outliers it's better to impute by median
-        - Whenever you have null values with out outliers it's better to impute by mean
-        - Whenever you have null values ok categorical values sometimes better to impute by mode.
-        - On the occassional cases some times imputation of null values deals with using algorithmic imputation
+        - Whenever you have a higher percentage of null values, it is better to drop the column or row.
+        - Whenever you have null values with outliers, it's better to impute by median.
+        - Whenever you have null values without outliers, it's better to impute by mean.
+        - Whenever you have null values, categorical values are sometimes better to impute by mode.
+        - Sometimes, imputation of null values deals with using algorithmic imputation.
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/13a3653c-7c8d-4164-8c3e-bacee90e3399"> />
