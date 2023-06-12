@@ -111,11 +111,15 @@ Data Analysis was done in a 3 step process:
    
    #### Principle Components Analysis (PCA)
    
-   - **1. Splitting the Data:** We start by splitting the dataset into training and testing sets using the train_test_split function. This allows us to have separate data to train our model and evaluate its performance.
-   - **2. Standardizing the Data:** To ensure that all features are on the same scale, we create an instance of StandardScaler and fit it to the training data. Then, we use the fitted scaler to transform both the training and testing data. Standardization is important for many machine learning algorithms as it helps prevent certain features from dominating others due to differences in their scales.
-   - **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
-   - **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
-   - **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
+   **1. Splitting the Data:** We start by splitting the dataset into training and testing sets using the train_test_split function. This allows us to have separate data to train our model and evaluate its performance.
+   
+   **2. Standardizing the Data:** To ensure that all features are on the same scale, we create an instance of StandardScaler and fit it to the training data. Then, we use the fitted scaler to transform both the training and testing data. Standardization is important for many machine learning algorithms as it helps prevent certain features from dominating others due to differences in their scales.
+   
+   **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
+   
+   **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
+   
+   **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
    
    #### Random Forest - tells us what the most important features are
   - We checked for model accuracy.
