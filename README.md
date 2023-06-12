@@ -30,8 +30,8 @@ As people looked for refuge from their homes in nature, many took on the practic
             - [Findings](#decision-tree-findings)
         - [Deep Neural Net](#deep-neural-net) 
             - [Findings](#deep-neural-net-findings)
-- [Conclusion & Next Steps](#conclusion-and-next-steps)
-- [References & Recommended Readings](#references-and-recommended-readings)
+- [Conclusion & Next Steps](#conclusion-next-steps)
+- [References & Recommended Readings](#references-recommended-readings)
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8" />
