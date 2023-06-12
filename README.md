@@ -380,7 +380,7 @@ How does habitat and season influence mushroom toxicity?
 
    - To define the model in Step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
  
-   - When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
+   - When compiling the model we chose the `binary_crossentropy` function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
 
    - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy a loss of 5.03. 
 
