@@ -191,9 +191,9 @@ Data Analysis was done in a 3 step process:
    
    **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" width="550">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" width="500">
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" width="550">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" width="500">
 
    **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
 
@@ -204,10 +204,10 @@ Data Analysis was done in a 3 step process:
 
    **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" width="550">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" width="500">
 
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="550">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="500">
  
         - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
