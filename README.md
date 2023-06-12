@@ -57,7 +57,7 @@ This compelling question is one that our model can answer based on certain mushr
 ## Description of Data Analysis
 Data Analysis was done in a 3 step process:
 
-   ## Step 1: Data Cleaning and Preprocessing
+   ### Step 1: Data Cleaning and Preprocessing
    - We began by importing our csv source to a jupyter notebook
    - Before modeling, we made sure to clean, normalize and standardize our data
        - When cleaning, we found dropping null values to be the most beneficial tactic since:
@@ -80,7 +80,7 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
 
-   - **Results:** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.
+   - ~Results:** Buff mushrooms appear to be the least likely to poison you. You are almost guaranteed to be poisoned by a pink, green, orange, red, or yellow mushroom. Other colors appear to be a toss-up as to whether they are poisonous or not. Best to assume more mushrooms you find in the wild are poisonous.~
 
 > **Image 1b**
 <p align="center">
@@ -331,9 +331,9 @@ Data Analysis was done in a 3 step process:
 
 **Explanation & Findings**
 
-- To define the model in step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
+- To define the model in Step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
 - When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
-- When evaluating the model in step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
+- When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
 
 
 ## Conclusion and Next Steps
