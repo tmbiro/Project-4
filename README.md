@@ -349,9 +349,9 @@ How does habitat and season influence mushroom toxicity?
 
    #### Decision Tree Findings
    
-  - This produced an accuracy rating of 98% 
+- This produced an accuracy rating of 98% 
    
-  - Model performed well which is likely because:
+- Model performed well which is likely because:
     
    - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
     
