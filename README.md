@@ -191,9 +191,9 @@ Data Analysis was done in a 3 step process:
    
    **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" alt="alt text" width="100" height="whatever">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" width="300">
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" alt="alt text" width="100" height="whatever">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" width="300">
 
    **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
 
