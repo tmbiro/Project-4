@@ -18,6 +18,7 @@ As people looked for refuge from their homes in nature, many took on the practic
         - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
         - [Random Forest](#random-forest)
         - [Logistic Regression](#logistic-regression) 
+        - [Decision Tree Model](#decision-tree-model)
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
@@ -144,6 +145,30 @@ Data Analysis was done in a 3 step process:
 </p>
    
    #### Logistic Regression
+   The goal of the logistic regression as a classification model was to see if it can predict the binary outcome: 
+    - **Is this mushroom edible or poisonous?** 
+   
+   **Findings**
+   - This produced an accuracy rating of 60% 
+   - Over Sampled and Under Sampled LR Imbalanced Data Set 
+    - Literature says it’s best to try both. 
+    - **Over=** duplicates examples in the minority class (edible)
+    - **Under=** merges examples in the majority class (poisonous) 60%
+   - Model did not perform that well as can be seen by classification report which is most likely due to:
+   - Data being too large.
+   - There is no linear relationship b/w the outcome (edible and poisonous) and predicters (mushroom features)
+   - 60% accuracy 
+
+   #### Decision Tree Model
+   The goal of the Decision Tree Model as a classification model was to see if it can predict the binary outcome:
+    - **Is this mushroom edible or poisonous?** 
+
+   **Findings**
+   - This produced an accuracy rating of 98% 
+   - Model performed well which is likely because:
+    - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
+    - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
+    - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
 
 ## Results
 
