@@ -77,6 +77,7 @@ Data Analysis was done in a 3 step process:
 **Question 1:** How do mushroom cap characteristics influence mushroom toxicity?
 
 <u>Image 1a</u>
+
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/ed7d7671-4e54-4dc1-9ea3-49bab525a213" />
 </p>
