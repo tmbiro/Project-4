@@ -21,7 +21,7 @@ As people looked for refuge from their homes in nature, many took on the practic
 - [Results](#results)
     - [Findings](#findings)
     - [Analysis](#analysis)   
-- [Next Steps](#next-steps)
+- [Conclusion and Next Steps](#conclusion-and-next-steps)
 - [References](#references)
 
 <p align="center">
@@ -153,7 +153,16 @@ Data Analysis was done in a 3 step process:
 
 ### Analysis
 
-## Next Steps
+## Conclusion and Next Steps
+
+We were able to build several models that accurately predict the edibility or toxicity of mushrooms given the descriptive features in this dataset, however we believe that image identification of edible mushrooms would be significantly more helpful. So, our next step would be to use Machine Learning on mushroom photos to predict edibility. To this end we would explore both:
+
+    1. <Convolutional Neural Network Model> with Images of mushrooms to see if we can use images to identify if a mushroom is edible or poisonous.
+    
+    2. Using saliency maps to see if we can highlight which feature of the mushroom is relevant for classification of it being edible or poisonous.
+
+Our group also discussed how changes in laws surrounding the cultivation and use of mushrooms containing psylocibin for therapeutic purposes will change the data landscape for mushrooms. Currently psylocibin is a controlled substance and data is not available or what is available is federally controlled. As the use of psylocibin mushrooms increases in western medicine and data is released. Adding the features of psilocybin mushrooms as a hallucinogenic classification category is a possibility.
+
   - Image idea
   -
 
