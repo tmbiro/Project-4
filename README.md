@@ -211,14 +211,23 @@ Data Analysis was done in a 3 step process:
  
    - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
+   **Findings**
+   
+   - "By applying PCA to our dataset, we reduced the dimensionality from 11 features to 2 principal components. The original dataset had a shape of (45801, 11), and the transformed PCA data had a shape of (45801, 2). The scatter plot visualizes the transformed data, with the x-axis representing the first principal component and the y-axis representing the second principal component.
+
+   - The explained variance ratio for the first principal component is 0.8769, indicating that this component explains approximately 87.69% of the variance in the dataset. Similarly, the explained variance ratio for the second principal component is 0.0808, explaining around 8.08% of the variance. These ratios provide insights into the amount of information retained by each principal component.
+
+   - This dimensionality reduction technique allows us to represent the data in a lower-dimensional space while retaining a significant amount of the original information."
+
    #### Random Forest 
-   **1.** We checked for model accuracy.
+   
+   **1.** We checked for model accuracy by creating a Random Forest Classifier with 500 decision trees.
    
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/4cb92918-771c-4d04-8b43-0d0307074ef4" />
 </p>
 
-   **2.** We calculated the confusion matrix.
+   **2.** We calculated the confusion matrix and classification report.
  
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/de737072-0b70-478a-8854-8fea29796241" />
@@ -231,6 +240,18 @@ Data Analysis was done in a 3 step process:
  <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8fd308d7-eb50-44cf-a609-c10d7063c5ce" />
 </p>
+
+   **Findings**
+   
+   - Our Random Forest model achieves a remarkable training accuracy of 100.0%. This means that it accurately predicts all the labels in the training dataset. Moving on to the test accuracy, we observe a high accuracy score of 99.59%. This indicates that the model generalizes well to unseen data, demonstrating its effectiveness in classification.
+   
+   - The accuracy score of our Random Forest model further confirms the model's performance, with a score of 0.9959. This metric represents the overall accuracy of the predictions, indicating a high level of correctness in classifying the instances.
+   
+   - Additionally, we generate a comprehensive classification report. Precision, recall, and the F1-score are all outstanding for both classes (0 and 1), indicating a reliable classification performance. The support column represents the number of instances of each class in the test set.
+   
+   - We calculated the importance of each feature in the classification task using the Random Forest model. The bar plot presents feature importance in descending order. This allows us to identify the most influential features for making accurate predictions.
+   
+   - Our Random Forest Classifier demonstrates exceptional performance on both the training and test sets. The model achieves high accuracy, with a training accuracy of 100% and a test accuracy of 99.59%. The confusion matrix provides insights into the model's predictions, and the classification report demonstrates its precision, recall, and F1-score. Finally, feature importance sheds light on the significant features driving the classification task.
    
    #### Logistic Regression
    The goal of the logistic regression as a classification model was to see if it can predict the binary outcome: 
