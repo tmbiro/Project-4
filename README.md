@@ -326,7 +326,7 @@ How does habitat and season influence mushroom toxicity?
    
    - Data being too large.
    
-   - There is no linear relationship b/w the outcome (edible and poisonous) and predicters (mushroom features)
+   - A linear relationship between the outcome (edible and poisonous) and predicters (mushroom features) cannot be fully explained by linear relationships
    
    - 60% accuracy 
 
