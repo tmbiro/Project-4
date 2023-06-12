@@ -30,8 +30,8 @@ As people looked for refuge from their homes in nature, many took on the practic
             - [Findings](#decision-tree-findings)
         - [Deep Neural Net](#deep-neural-net) 
             - [Findings](#deep-neural-net-findings)
-- [Conclusion & Next Steps](#conclusion-next-steps)
-- [References & Recommended Readings](#references-recommended-readings)
+- [Conclusion & Next Steps](#conclusion-and-next-steps)
+- [References & Recommended Readings](#references-and-recommended-readings)
 
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8d830f86-812a-4305-bc59-8a31a9ec96a8" />
@@ -386,7 +386,7 @@ How does habitat and season influence mushroom toxicity?
    - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
 
 
-## Conclusion & Next Steps
+## Conclusion and Next Steps
 
 We were able to build several models that accurately predict the edibility or toxicity of mushrooms given the descriptive features in this dataset, however we believe that image identification of edible mushrooms would be significantly more helpful. So, our next step would be to use Machine Learning on mushroom photos to predict edibility. To this end we would explore both:
 
@@ -396,7 +396,7 @@ We were able to build several models that accurately predict the edibility or to
 
 Our group also discussed how changes in laws surrounding the cultivation and use of mushrooms containing psylocibin for therapeutic purposes will change the data landscape for mushrooms. Currently psylocibin is a controlled substance and data is not available or what is available is federally controlled. As the use of psylocibin mushrooms increases in western medicine and data is released. Adding the features of psilocybin mushrooms as a hallucinogenic classification category is a possibility.
 
-## References & Recommended Readings
+## References and Recommended Readings
 - [Mental Health and Substance Abuse](https://www.vox.com/2014/12/22/7424477/mushrooms-research)
 - [Climate Change](https://www.nytimes.com/interactive/2022/07/27/climate/climate-change-fungi.html)
 - [World Hunger](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10213758/) 
