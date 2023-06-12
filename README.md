@@ -224,7 +224,7 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/de737072-0b70-478a-8854-8fea29796241" />
 </p>
 
-    - True Positive (TP): 8446 True Negative (TN): 6760 False Positive (FP): 35 False Negative (FN): 27
+   - True Positive (TP): 8446 True Negative (TN): 6760 False Positive (FP): 35 False Negative (FN): 27
         
    **3.** We visualized the features by importance.
    
