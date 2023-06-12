@@ -204,10 +204,10 @@ Data Analysis was done in a 3 step process:
 
    **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" width="500">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" width="50%">
 
 
- <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="500">
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" width="50%">
  
         - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
