@@ -69,7 +69,7 @@ Data Analysis was done in a 3 step process:
    ### Step 1: Data Cleaning and Preprocessing
    - We began by importing our csv source to a jupyter notebook
    - Before modeling, we made sure to clean, normalize and standardize our data
-       - When cleaning, we found dropping null values to be the most beneficial tactic since:
+      - When cleaning, we found dropping null values to be the most beneficial tactic since:
         - Whenever you have more % of null values better to drop the column or row
         - Whenever you have null values with outliers it's better to impute by median
         - Whenever you have null values with out outliers it's better to impute by mean
