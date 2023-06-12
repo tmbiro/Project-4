@@ -357,6 +357,7 @@ How does habitat and season influence mushroom toxicity?
    - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
     
     - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
+![transactions_tree](https://github.com/Ahoust7/Project-4/assets/119638430/6f135293-d4c3-4442-a729-327d520e1fae)
 
    #### Deep Neural Net
    
