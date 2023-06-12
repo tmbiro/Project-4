@@ -191,25 +191,25 @@ How does habitat and season influence mushroom toxicity?
 
    #### Principle Components Analysis (PCA)
    
-   **1. Splitting the Data:** We start by splitting the dataset into training and testing sets using the train_test_split function. This allows us to have separate data to train our model and evaluate its performance.
+   **1. Splitting the Data:** We start by splitting the dataset into training and testing sets using the `train_test_split` function. This allows us to have separate data to train our model and evaluate its performance.
    
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/e51900b7-b1cc-4a40-a71a-2dcf6955ce36" />
 </p>
 
-   **2. Standardizing the Data:** To ensure that all features are on the same scale, we create an instance of StandardScaler and fit it to the training data. Then, we use the fitted scaler to transform both the training and testing data. Standardization is important for many machine learning algorithms as it helps prevent certain features from dominating others due to differences in their scales.
+   **2. Standardizing the Data:** To ensure that all features are on the same scale, we create an instance of `StandardScaler` and fit it to the training data. Then, we use the fitted scaler to transform both the training and testing data. Standardization is important for many machine learning algorithms as it helps prevent certain features from dominating others due to differences in their scales.
    
 <p align="center">
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/87acc4ff-4b3d-4f3e-b6e3-6935f1369be2" />
 </p>
    
-   **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
+   **3. Performing PCA:** We create a PCA object with `n_components=2`, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" width="500">
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" width="500">
 
-   **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
+   **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of `alpha=0.1` allows for better visualization when there are overlapping points, as it makes the points more transparent.
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/01206ea0-6710-440f-b76a-b09595a7be04" alt="alt text" width="whatever" height="whatever">
 
@@ -227,11 +227,11 @@ How does habitat and season influence mushroom toxicity?
 
    #### PCA Findings
    
-   - "By applying PCA to our dataset, we reduced the dimensionality from 11 features to 2 principal components. The original dataset had a shape of (45801, 11), and the transformed PCA data had a shape of (45801, 2). The scatter plot visualizes the transformed data, with the x-axis representing the first principal component and the y-axis representing the second principal component.
+   - By applying PCA to our dataset, we reduced the dimensionality from 11 features to 2 principal components. The original dataset had a shape of (45801, 11), and the transformed PCA data had a shape of (45801, 2). The scatter plot visualizes the transformed data, with the x-axis representing the first principal component and the y-axis representing the second principal component.
 
    - The explained variance ratio for the first principal component is 0.8769, indicating that this component explains approximately 87.69% of the variance in the dataset. Similarly, the explained variance ratio for the second principal component is 0.0808, explaining around 8.08% of the variance. These ratios provide insights into the amount of information retained by each principal component.
 
-   - This dimensionality reduction technique allows us to represent the data in a lower-dimensional space while retaining a significant amount of the original information."
+   - This dimensionality reduction technique allows us to represent the data in a lower-dimensional space while retaining a significant amount of the original information.
 
    #### Random Forest 
    
