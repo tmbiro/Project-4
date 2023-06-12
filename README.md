@@ -331,14 +331,37 @@ Data Analysis was done in a 3 step process:
     - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
 
    #### Deep Neural Net
+   
+   **1.** Data Preparation: We split our preprocessed data into our features and target arrays & scaled the data
+   
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a4d688f0-dccf-4b75-b79e-d6a10a2da3d6" />
+</p>  
 
-## Results
+   **2.** Model Setup: We defined our model and deep neural net
 
-### Findings
-  - **Logistic Regression**
-    - Works better when you can build a linear regression and we cannot do that with our data because there is so much, thus we can't get an accurate measure of regression.
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/471d14e3-db52-471b-a102-58b416cf8589" />
+</p>  
 
-### Analysis
+   **3.** We compiled and trained the model 
+   
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a84516fe-bc6a-4526-a04f-24ecfaa43eb9" />
+</p>  
+
+   **4.** We evaluated the model using the test data
+   
+<p align="center">
+  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8687294a-ce27-4b03-8450-3cf8763960a0" />
+</p>  
+
+**Explanation & Findings**
+
+- To define the model in step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
+- When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
+- When evaluating the model in step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
+
 
 ## Conclusion and Next Steps
 
