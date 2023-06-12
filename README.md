@@ -20,9 +20,6 @@ As people looked for refuge from their homes in nature, many took on the practic
         - [Logistic Regression](#logistic-regression) 
         - [Decision Tree Model](#decision-tree-model)
         - [Deep Neural Net](#deep-neural-net) 
-- [Results](#results)
-    - [Findings](#findings)
-    - [Analysis](#analysis)   
 - [Conclusion and Next Steps](#conclusion-and-next-steps)
 - [References](#references)
 
@@ -33,7 +30,7 @@ As people looked for refuge from their homes in nature, many took on the practic
 ## Purpose
 If you were to walk around in your backyard right now, there is a good chance that you would find some sort of mushroom. Before handling these types of fungi, it is important to decipher whether or not they are poisonous. Misidentifying poisonous mushrooms can have severe consequences, as ingestion of toxic varieties can lead to illness, organ failure, or even death. We've decided to train a machine learning model that can accurately identify and differentiate toxic mushrooms from edible ones, ensuring the safety of individuals who forage or consume wild mushrooms.
 
-### Is This Mushroom Edible or Poisonous?
+#### Is This Mushroom Edible or Poisonous?
 This compelling question is one that our model can answer based on certain mushroom characteristics.
 
 ## Datasource
@@ -59,7 +56,8 @@ This compelling question is one that our model can answer based on certain mushr
 
 ## Description of Data Analysis
 Data Analysis was done in a 3 step process:
-### Step 1: Data Cleaning and Preprocessing
+
+   ## Step 1: Data Cleaning and Preprocessing
    - We began by importing our csv source to a jupyter notebook
    - Before modeling, we made sure to clean, normalize and standardize our data
        - When cleaning, we found dropping null values to be the most beneficial tactic since:
@@ -73,7 +71,7 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/13a3653c-7c8d-4164-8c3e-bacee90e3399"> />
 </p>
 
-### Step 2: Data Exploration and Visualization
+   ### Step 2: Data Exploration and Visualization
 
 **Question 1:** How do mushroom cap characteristics influence mushroom toxicity?
 
@@ -148,7 +146,7 @@ Data Analysis was done in a 3 step process:
 
    - **Result:** Most poisonous mushrooms can be found in the summer or autumn. You are less likely to find a poisonous mushroom in the Spring and Winter.
 
-### Step 3: Predictive Analyses
+   ### Step 3: Predictive Analyses
     
    #### Data Transformation and Setup
 
@@ -276,6 +274,7 @@ Data Analysis was done in a 3 step process:
 </p>   
 
 **Results:** True Positive (TP): 5011 True Negative (TN): 4038 False Positive (FP): 2757 False Negative (FN): 3462
+
     - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
 
    **4.** We predicted a logistic regression model with under resampled training data
@@ -285,6 +284,7 @@ Data Analysis was done in a 3 step process:
 </p>   
 
 **Results:** True Positive (TP): 4952 True Negative (TN): 4078 False Positive (FP): 2717 False Negative (FN): 3521
+
     - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
 
 
