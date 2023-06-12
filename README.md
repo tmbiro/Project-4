@@ -265,7 +265,7 @@ Data Analysis was done in a 3 step process:
 
 **Results:** True Positive (TP): 5011 True Negative (TN): 4038 False Positive (FP): 2757 False Negative (FN): 3462
 
-    - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
+   - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
 
    **4.** We predicted a logistic regression model with under resampled training data
 
