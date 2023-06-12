@@ -157,7 +157,7 @@ Data Analysis was done in a 3 step process:
 
 We were able to build several models that accurately predict the edibility or toxicity of mushrooms given the descriptive features in this dataset, however we believe that image identification of edible mushrooms would be significantly more helpful. So, our next step would be to use Machine Learning on mushroom photos to predict edibility. To this end we would explore both:
 
-    1. <Convolutional Neural Network Model> with Images of mushrooms to see if we can use images to identify if a mushroom is edible or poisonous.
+    1. <u>Convolutional Neural Network Model</u> with Images of mushrooms to see if we can use images to identify if a mushroom is edible or poisonous.
     
     2. Using saliency maps to see if we can highlight which feature of the mushroom is relevant for classification of it being edible or poisonous.
 
