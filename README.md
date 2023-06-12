@@ -16,11 +16,15 @@ As people looked for refuge from their homes in nature, many took on the practic
     - [Step 2: Data Exploration and Visualization](#step-2-data-exploration-and-visualization)
     - [Step 3: Predictive Analyses](#step-3-predictive-analyses)
         - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
-            - [Findings](#findings)
+            - [Findings](#pca-findings)
         - [Random Forest](#random-forest)
+            -[Findings](#random-forest-findings) 
         - [Logistic Regression](#logistic-regression) 
+            - -[Findings](#logistic-regression-findings)
         - [Decision Tree Model](#decision-tree-model)
+            - -[Findings](#decision-tree-findings)
         - [Deep Neural Net](#deep-neural-net) 
+            - -[Findings](#deep-neural-net-findings)
 - [Conclusion and Next Steps](#conclusion-and-next-steps)
 - [References](#references)
 
@@ -212,7 +216,7 @@ Data Analysis was done in a 3 step process:
  
    - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
-   **Findings**
+   #### PCA Findings
    
    - "By applying PCA to our dataset, we reduced the dimensionality from 11 features to 2 principal components. The original dataset had a shape of (45801, 11), and the transformed PCA data had a shape of (45801, 2). The scatter plot visualizes the transformed data, with the x-axis representing the first principal component and the y-axis representing the second principal component.
 
@@ -242,7 +246,7 @@ Data Analysis was done in a 3 step process:
   <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8fd308d7-eb50-44cf-a609-c10d7063c5ce" />
 </p>
 
-   **Findings**
+   #### Random Forest Findings
    
    - Our Random Forest model achieves a remarkable training accuracy of 100.0%. This means that it accurately predicts all the labels in the training dataset. Moving on to the test accuracy, we observe a high accuracy score of 99.59%. This indicates that the model generalizes well to unseen data, demonstrating its effectiveness in classification.
    
@@ -298,7 +302,7 @@ Data Analysis was done in a 3 step process:
    - Class 0 precision: 56%, recall: 40%, F1-score: 47% Class 1 precision: 61%, recall: 75%, F1-score: 67% Overall accuracy: 60% Weighted average precision: 59%, recall: 60%, F1-score: 58%
 
 
-   **Findings**
+   #### Logistic Regression Findings
    
    - Over Sampled and Under Sampled LR Imbalanced Data Set 
     - Literature says it’s best to try both. 
@@ -326,7 +330,7 @@ Data Analysis was done in a 3 step process:
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/3279a509-d055-419e-9ac3-f52cf8459c92" alt="alt text" width="whatever" height="whatever">
 
-   **Findings**
+   #### Decision Tree Findings
    
    - This produced an accuracy rating of 98% 
    - Model performed well which is likely because:
@@ -352,11 +356,13 @@ Data Analysis was done in a 3 step process:
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8687294a-ce27-4b03-8450-3cf8763960a0" alt="alt text" width="whatever" height="whatever">
 
-**Explanation & Findings**
+   #### Deep Neural Net Findings
 
-- To define the model in Step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
-- When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
-- When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
+   - To define the model in Step 2, we determined the number of input features we will use, how many hidden layers we were creating, and how many nodes each layer would use. For this model we chose 2 hidden layers with 100 and 75 nodes respectively, we also chose to use all the available features. The activation function for the two hidden layers was ReLU, which was chosen to explore non-linearity. For the output layer, we used sigmoid. 
+ 
+   - When compiling the model we chose the 'binary_crossentropy' function to calculate the loss because this is a binary classification model and this function computes the loss between true labels and predicted labels. Then when training the model, we found after a few attempts that 10 epochs gave use the highest accuracy with the lowest loss. 
+
+   - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
 
 
 ## Conclusion and Next Steps
