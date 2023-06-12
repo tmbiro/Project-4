@@ -16,6 +16,7 @@ As people looked for refuge from their homes in nature, many took on the practic
     - [Step 2: Data Exploration and Visualization](#step-2-data-exploration-and-visualization)
     - [Step 3: Predictive Analyses](#step-3-predictive-analyses)
         - [Principle Components Analysis (PCA)](#principle-components-analysis-pca)
+            - [Findings](#findings)
         - [Random Forest](#random-forest)
         - [Logistic Regression](#logistic-regression) 
         - [Decision Tree Model](#decision-tree-model)
