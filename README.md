@@ -191,36 +191,24 @@ Data Analysis was done in a 3 step process:
    
    **3. Performing PCA:** We create a PCA object with n_components=2, indicating that we want to reduce the dimensionality of our data to two principal components. We then fit the PCA model to the scaled training data and transform both the training and testing data into the reduced feature space.
 
-<p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" />
-</p>
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/195b4804-c66f-4250-b3a9-b5ec00c5b82d" alt="alt text" width="whatever" height="whatever">
 
-<p align="center">
-  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" />
-</p>
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/64f8c98b-0a63-4f5d-b371-02d51fe254a1" alt="alt text" width="whatever" height="whatever">
 
    **4. Visualizing the Transformed Data:** We plot the transformed data in a scatter plot, using the first principal component on the x-axis and the second principal component on the y-axis. The use of alpha=0.1 allows for better visualization when there are overlapping points, as it makes the points more transparent.
 
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/01206ea0-6710-440f-b76a-b09595a7be04" />
-</p>
-
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/942eea06-691b-4df3-bca2-a635013ee10f" />
-</p>
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/01206ea0-6710-440f-b76a-b09595a7be04" alt="alt text" width="whatever" height="whatever">
 
 
  <img src="https://github.com/Ahoust7/Project-4/assets/119274891/942eea06-691b-4df3-bca2-a635013ee10f" alt="alt text" width="whatever" height="whatever">
 
    **5. Explained Variance Ratio:** We calculate and print the explained variance ratio for the first two principal components. The explained variance ratio tells us the proportion of the dataset's variance that is explained by each principal component. It provides insight into how much information is retained by each component.
 
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" />
-</p>
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/941b61dc-3e04-466c-84d8-8761603c1922" alt="alt text" width="whatever" height="whatever">
 
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 29 14 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" />
-</p>
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/295cdfad-be12-44de-b7c5-674a0879baec" alt="alt text" width="whatever" height="whatever">
+ 
         - We can see that the first principle components analysis had a high accuracy at 87%; whereas, the second principle components analysis have relatively low accuracy at 8%.
 
    #### Random Forest 
@@ -272,9 +260,7 @@ Data Analysis was done in a 3 step process:
 
    **4.** We predicted a logistic regression model with over resampled training data
 
- <p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/e151d3d8-bbc7-4c03-957d-768305b76e46" />
-</p>   
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/e151d3d8-bbc7-4c03-957d-768305b76e46" alt="alt text" width="whatever" height="whatever">
 
 **Results:** True Positive (TP): 5011 True Negative (TN): 4038 False Positive (FP): 2757 False Negative (FN): 3462
 
@@ -282,9 +268,7 @@ Data Analysis was done in a 3 step process:
 
    **4.** We predicted a logistic regression model with under resampled training data
 
- <p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a6196e40-135a-4eb8-b8b9-f4d280fceda0" />
-</p>   
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/a6196e40-135a-4eb8-b8b9-f4d280fceda0" alt="alt text" width="whatever" height="whatever">
 
 **Results:** True Positive (TP): 4952 True Negative (TN): 4078 False Positive (FP): 2717 False Negative (FN): 3521
 
@@ -308,22 +292,16 @@ Data Analysis was done in a 3 step process:
    - **Is this mushroom edible or poisonous?** 
 
    **1.** We defined features and set target vectors
-   
- <p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/80bdab34-cc45-4a6c-b41d-f1340125f151" />
-</p>     
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/80bdab34-cc45-4a6c-b41d-f1340125f151" alt="alt text" width="whatever" height="whatever">
 
    **2.**  We created a `StandardScaler` instance and scaled the training data
-   
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/f5cbf964-5a5d-455d-91ed-d9d2b34ad1c8" />
-</p>  
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/f5cbf964-5a5d-455d-91ed-d9d2b34ad1c8" alt="alt text" width="whatever" height="whatever">
 
    **3.** We calculated the confusion matrix and accuracy score
 
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/3279a509-d055-419e-9ac3-f52cf8459c92" />
-</p>  
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/3279a509-d055-419e-9ac3-f52cf8459c92" alt="alt text" width="whatever" height="whatever">
 
    **Findings**
    
@@ -336,28 +314,20 @@ Data Analysis was done in a 3 step process:
    #### Deep Neural Net
    
    **1.** Data Preparation: We split our preprocessed data into our features and target arrays & scaled the data
-   
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a4d688f0-dccf-4b75-b79e-d6a10a2da3d6" />
-</p>  
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/a4d688f0-dccf-4b75-b79e-d6a10a2da3d6" alt="alt text" width="whatever" height="whatever">
 
    **2.** Model Setup: We defined our model and deep neural net
 
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/471d14e3-db52-471b-a102-58b416cf8589" />
-</p>  
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/471d14e3-db52-471b-a102-58b416cf8589" alt="alt text" width="whatever" height="whatever">
 
    **3.** We compiled and trained the model 
-   
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/a84516fe-bc6a-4526-a04f-24ecfaa43eb9" />
-</p>  
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/a84516fe-bc6a-4526-a04f-24ecfaa43eb9" alt="alt text" width="whatever" height="whatever">
 
    **4.** We evaluated the model using the test data
-   
-<p align="center">
-  <img src="Screenshot 2023-06-12 at 12 53 21 AM" src="https://github.com/Ahoust7/Project-4/assets/119274891/8687294a-ce27-4b03-8450-3cf8763960a0" />
-</p>  
+
+ <img src="https://github.com/Ahoust7/Project-4/assets/119274891/8687294a-ce27-4b03-8450-3cf8763960a0" alt="alt text" width="whatever" height="whatever">
 
 **Explanation & Findings**
 
