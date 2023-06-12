@@ -30,7 +30,7 @@ As people looked for refuge from their homes in nature, many took on the practic
             - [Findings](#decision-tree-findings)
         - [Deep Neural Net](#deep-neural-net) 
             - [Findings](#deep-neural-net-findings)
-- [Conclusion and Next Steps](#conclusion-and-next-steps)
+- [Conclusion & Next Steps](#conclusion-&-next-steps)
 - [References & Recommended Readings](#references-and-recommended-readings)
 
 <p align="center">
@@ -349,13 +349,13 @@ How does habitat and season influence mushroom toxicity?
 
    #### Decision Tree Findings
    
-   - This produced an accuracy rating of 98% 
+  - This produced an accuracy rating of 98% 
    
-   - Model performed well which is likely because:
+  - Model performed well which is likely because:
     
-    - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
+   - It is better able to handle that the mushroom features are not linearly related to whether the mushroom is edible or poisonous. 
     
-    - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
+   - As mentioned earlier we had outliers and missing data, and the decision tree model is not affected by this and is able to split features on the data accordingly. 
     
     - As seen in the image of the decision tree model the data is complex and deep.  It would be interesting to see the model applied to new data as more mushroom species are discovered. 
 
@@ -386,7 +386,7 @@ How does habitat and season influence mushroom toxicity?
    - When evaluating the model in Step 4, it's evident that we've achieved 98.36% accuracy and 5.03% loss. 
 
 
-## Conclusion and Next Steps
+## Conclusion & Next Steps
 
 We were able to build several models that accurately predict the edibility or toxicity of mushrooms given the descriptive features in this dataset, however we believe that image identification of edible mushrooms would be significantly more helpful. So, our next step would be to use Machine Learning on mushroom photos to predict edibility. To this end we would explore both:
 
