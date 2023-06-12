@@ -305,12 +305,19 @@ Data Analysis was done in a 3 step process:
    #### Logistic Regression Findings
    
    - Over Sampled and Under Sampled LR Imbalanced Data Set 
+   
     - Literature says it’s best to try both. 
+    
     - **Over=** duplicates examples in the minority class (edible)
+    
     - **Under=** merges examples in the majority class (poisonous) 60%
+    
    - Model did not perform that well as can be seen by classification report which is most likely due to:
+   
    - Data being too large.
+   
    - There is no linear relationship b/w the outcome (edible and poisonous) and predicters (mushroom features)
+   
    - 60% accuracy 
 
    #### Decision Tree Model
