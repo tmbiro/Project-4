@@ -323,11 +323,11 @@ How does habitat and season influence mushroom toxicity?
     
    - Model did not perform that well as can be seen by classification report which is most likely due to:
    
-   - Data being too large.
+        - Data being too large.
    
-   - A linear relationship between the outcome (edible and poisonous) and predicters (mushroom features) cannot be fully explained by linear relationships
+        - A linear relationship between the outcome (edible and poisonous) and predicters (mushroom features) cannot be fully explained by linear relationships
    
-   - 60% accuracy 
+        - 60% accuracy 
 
    #### Decision Tree Model
    The goal of the Decision Tree Model as a classification model was to see if it can predict the binary outcome:
