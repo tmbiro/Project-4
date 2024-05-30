@@ -313,13 +313,13 @@ How does habitat and season influence mushroom toxicity?
 
    #### Logistic Regression Findings
    
-   - Over Sampled and Under Sampled LR Imbalanced Data Set 
+   - Over Sampled and Under Sampled Logistic Regression Imbalanced Data Set 
    
         - Literature says it’s best to try both. 
     
         - **Over=** duplicates examples in the minority class (edible)
     
-        - **Under=** merges examples in the majority class (poisonous) 60%
+        - **Under=** merges examples in the majority class (poisonous)
     
    - Model did not perform that well as can be seen by classification report which is most likely due to:
    
