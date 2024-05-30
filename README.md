@@ -1,4 +1,4 @@
-### Project 4 - Machine Learning: Tifani B, Ashley H, Fiona B, Katie B, Pratik S
+### Project 4 - Machine Learning: Tifani B, Fiona B, Katie B, Ashley H, Pratik S
 # To Shroom or Not to Shroom?🍄 
 
 > **One surprising development of the Covid-19 pandemic was the resurgence of interest in mushrooms among Americans.
